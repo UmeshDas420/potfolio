@@ -1,0 +1,38 @@
+.mypic {
+    
+    width: 300px;
+    float: left;
+    grid-column-start: 1;
+    border: 10px solid lightcoral;
+    border-radius: 10%;
+    
+    
+}
+.upper_img {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 50px;
+}
+.upper_text {
+    grid-column-start: 2;
+}
+*{
+    background-image: url(../assets/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upper_img .profile {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+
+}

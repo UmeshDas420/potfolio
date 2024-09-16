@@ -1,0 +1,52 @@
+.intro {
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 500px;
+    text-decoration: none;
+    
+}
+.navigation_buttons {
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+    display: inline-flex;
+    gap: 20px;
+    
+}
+a {
+    color: darkgrey;
+}
+* {
+    background-image:url(../assets/WELCOME\ TO\ MY\ WEBSITE.2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: darkgrey;
+    font-size: 60px;
+   
+    
+}
+.intro p{
+    text-align: left;
+    position: relative;
+    right: 100px;
+    top: 50px;
+    width: 600px;
+}
+.intro li{
+    font-size: 40px;
+    position: relative;
+    left: 160px;
+}
+.last {
+    color: grey;
+    position: relative;
+    left: 90px;
+    top: 50px;
+    width: 600px;
+}
